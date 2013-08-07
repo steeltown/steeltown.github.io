@@ -290,10 +290,6 @@ a:hover {
     width: 100%;
 }
 
-#links a:hover{
-    border-bottom: 1px solid #FF5300;;
-}
-
 #galleria, #artwork{
   width: 800px;
   height: 520px;
