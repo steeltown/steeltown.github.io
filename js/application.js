@@ -59,12 +59,15 @@ var first = false;
     $(window).hashchange( function(){
         var hash = location.hash;
 
-        // Set the page title based on the hash.
-        document.title = 'Steel Town - ' + ( hash.replace( /^#/, '' ) || 'blank' ) + '.';
-
-        if(hash != "")
+        if(hash != ""){
             moveTitleUp(hash);
-            
+            // Set the page title based on the hash.
+            document.title = 'Steel Town - ' + ( hash.replace( /^#/, '' ) || 'blank' );
+        }
+        else {
+            // Set the page title based on the hash.
+            document.title = 'Steel Town';
+        }       
     })
     
     $(window).hashchange();
