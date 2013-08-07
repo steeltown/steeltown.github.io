@@ -94,8 +94,8 @@ h1 {
     display: inline-block;
     font-size: 1.2em;
     
-    transition: color .5s;
-    -webkit-transition: color .5s; /* Safari */
+    transition: color .1s;
+    -webkit-transition: color .1s; /* Safari */
 }
 
 #nav a.current {
