@@ -13,7 +13,7 @@ var first = false;
                 }); 
                 
                 $('#title span').animate({
-                    "font-size": "33px"
+                    "font-size": "35px"
                 });
                 
                 $('#background').animate({
@@ -35,7 +35,7 @@ var first = false;
             });   
             
             $('#title span').animate({
-                "font-size": "24px"
+                "font-size": "25px"
             });
             
             $('#background').animate({

@@ -57,10 +57,10 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: 280px;
+    margin-top: 295px;
     font-size: 85px;
     text-shadow: 2px 2px 20px black, 3px 3px 2px #111;
-font-family: 'IM Fell Double Pica SC', serif;
+    font-family: 'IM Fell Double Pica SC', serif;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -70,8 +70,8 @@ font-family: 'IM Fell Double Pica SC', serif;
 
 #title span {
     text-shadow: 2px 2px 20px black, 3px 3px 2px #111;
-    font-size: 33px;
-    font-family: 'IM Fell English SC', serif;
+    font-size: 35px;
+    font-family: 'IM Fell Double Pica SC', serif;
 }
 
 #nav {
