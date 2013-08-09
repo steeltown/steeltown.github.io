@@ -9,11 +9,11 @@ var first = false;
                 $('#content').html("");
                 $('h1').animate({
                     "margin-top": "280px",
-                    "font-size": "110px",
+                    "font-size": "85px",
                 }); 
                 
                 $('#title span').animate({
-                    "font-size": "28px"
+                    "font-size": "24px"
                 });
                 
                 $('#background').animate({
@@ -35,7 +35,7 @@ var first = false;
             });   
             
             $('#title span').animate({
-                "font-size": "24px"
+                "font-size": "17px"
             });
             
             $('#background').animate({
