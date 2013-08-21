@@ -7,9 +7,9 @@ var first = false;
         if(section == "#home"){
             $('#content').fadeOut(function(){
                 $('#content').html("");
-                $('h1').animate({
+                $('#title img').animate({
                     "margin-top": "280px",
-                    "font-size": "85px",
+                    "width": "650px"
                 }); 
                 
                 $('#title span').animate({
@@ -29,9 +29,9 @@ var first = false;
         	    first = true;
             }*/
                 
-            $('h1').animate({
-                "margin-top": 0,
-                "font-size": "60px",
+            $('#title img').animate({
+                "margin-top": "15px",
+                "width": "440px"
             });   
             
             $('#title span').animate({
