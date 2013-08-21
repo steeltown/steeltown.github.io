@@ -8,7 +8,7 @@ var first = false;
             $('#content').fadeOut(function(){
                 $('#content').html("");
                 $('#title img').animate({
-                    "margin-top": "290px",
+                    "margin-top": "300px",
                     "width": "650px"
                 }); 
                 
