@@ -61,7 +61,6 @@ body {
     text-align: center;
     margin-top: 280px;
     font-size: 85px;
-    text-shadow: 2px 2px 20px black, 3px 3px 2px #111;
     font-family: 'IM Fell Double Pica SC', serif;
     margin-bottom: 15px;
     margin-left: auto;
@@ -71,6 +70,7 @@ body {
 
 #title span {
     text-shadow: 1px 1px 30px black, 1px 1px 30px black, 1px 1px 30px black;
+    -moz-text-shadow: 1px 1px 30px black, 1px 1px 30px black, 1px 1px 30px black;
     font-size: 35px;
     font-family: 'IM Fell Double Pica SC', serif;
 }
@@ -132,6 +132,7 @@ a:hover {
     max-height: 424px;
     margin: 0 auto;
     text-shadow: 1px 1px 15px black;
+    -moz-text-shadow: 1px 1px 15px black;
     font-size: 12px;
     margin-top: 15px;
     text-align: left;
