@@ -27,6 +27,10 @@ var first = false;
                 $('.inner').animate({
                     height: "370px"
                 }).css("overflow-y","scroll");
+                
+                $('#content').animate({
+                    'width':'674px'
+                })
             });
         } else if(section == "#donate"){
              $('#title img').animate({
@@ -42,6 +46,9 @@ var first = false;
                     "opacity": .5
                 });
 
+                $('#content').animate({
+                    'width':'750px'
+                })
 
                 $('#content').fadeOut(function(){
                     $('#content').html($(section).html())
@@ -69,6 +76,12 @@ var first = false;
         	    $("#galleria").galleria();
         	    first = true;
             }*/
+            
+            
+            $('#content').animate({
+                'width':'674px'
+            })
+
                 
             $('#title img').animate({
                 "margin-top": "15px",
