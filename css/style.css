@@ -138,7 +138,7 @@ a:hover {
 }
 
 #content .inner {
-    height: 370px;
+    height: 385px;
     overflow-y:scroll;
     line-height: 25px;
     padding-right: 10px;
@@ -292,7 +292,8 @@ a:hover {
 }
 
 .donate img {
-    width: 380px;
+    width: 420px;
+    margin-bottom: 5px;
 }
 
 #galleria, #artwork{
@@ -302,4 +303,8 @@ a:hover {
 
 #card {
     float: right;
+}
+
+.inner p:last-child{
+    margin-bottom: 0;
 }

@@ -37,10 +37,6 @@ var first = false;
                 $('#content').fadeOut(function(){
                     $('#content').html($(section).html())
                     $('#content').fadeIn();
-                    
-                    $('.inner').animate({
-                        "height": "500px"
-                    });
                 });
 
                 $('#nav a').removeClass('current');
