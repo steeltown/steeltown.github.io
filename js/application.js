@@ -19,6 +19,8 @@ var first = false;
                 $('#background').animate({
                     "opacity": 1.0
                 });
+                
+                $('.inner').css("overflow-y", "scroll")
             });
         } else if(section == "#donate"){
              $('#title img').animate({
@@ -38,6 +40,8 @@ var first = false;
                     $('#content').html($(section).html())
                     $('#content').fadeIn();
                 });
+                
+                $('.inner').css("overflow-y", "hidden")
 
                 $('#nav a').removeClass('current');
                 $('#nav a[href="' + section + '"]').addClass("current");
@@ -64,6 +68,8 @@ var first = false;
             $('#background').animate({
                 "opacity": .5
             });
+            
+            $('.inner').css("overflow-y", "scroll")
             
             
             $('#content').fadeOut(function(){
