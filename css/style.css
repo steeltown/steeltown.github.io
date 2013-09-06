@@ -291,15 +291,15 @@ a:hover {
     color: #FF5300;
 }
 
-.donate {
-    text-align: center;
-}
-
 .donate img {
-    width: 75%;
+    width: 380px;
 }
 
 #galleria, #artwork{
   width: 800px;
   height: 520px;
+}
+
+#card {
+    float: right;
 }

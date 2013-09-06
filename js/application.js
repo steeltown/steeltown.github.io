@@ -19,18 +19,6 @@ var first = false;
                 $('#background').animate({
                     "opacity": 1.0
                 });
-                
-                $('#nav').animate({
-                    "top": "570px"
-                })
-                
-                $('.inner').animate({
-                    height: "370px"
-                }).css("overflow-y","scroll");
-                
-                $('#content').animate({
-                    'width':'674px'
-                })
             });
         } else if(section == "#donate"){
              $('#title img').animate({
@@ -45,11 +33,7 @@ var first = false;
                 $('#background').animate({
                     "opacity": .5
                 });
-
-                $('#content').animate({
-                    'width':'750px'
-                })
-
+                
                 $('#content').fadeOut(function(){
                     $('#content').html($(section).html())
                     $('#content').fadeIn();
@@ -58,15 +42,10 @@ var first = false;
                         "height": "500px"
                     });
                 });
-                
-                $('.inner').css("overflow-y","hidden")
 
                 $('#nav a').removeClass('current');
                 $('#nav a[href="' + section + '"]').addClass("current");
                 
-                $('#nav').animate({
-                    "top": "670px"
-                })
                 
         } else {
             /*
@@ -76,12 +55,6 @@ var first = false;
         	    $("#galleria").galleria();
         	    first = true;
             }*/
-            
-            
-            $('#content').animate({
-                'width':'674px'
-            })
-
                 
             $('#title img').animate({
                 "margin-top": "15px",
@@ -105,13 +78,6 @@ var first = false;
             $('#nav a').removeClass('current');
             $('#nav a[href="' + section + '"]').addClass("current");
             
-            $('.inner').animate({
-                height: "370px"
-            }).css("overflow-y","scroll");
-            
-            $('#nav').animate({
-                "top": "570px"
-            })
         }
     };
     
