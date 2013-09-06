@@ -49,8 +49,10 @@ var first = false;
                     
                     $('.inner').animate({
                         "height": "500px"
-                    }).css("overflow-y","hidden");
+                    });
                 });
+                
+                $('.inner').css("overflow-y","hidden")
 
                 $('#nav a').removeClass('current');
                 $('#nav a[href="' + section + '"]').addClass("current");
