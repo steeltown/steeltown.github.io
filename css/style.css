@@ -234,6 +234,14 @@ a:hover {
     text-align: justify;
 }
 
+#donate {
+    height: 700px;
+}
+
+#donate iframe {
+    display: inline-block;
+}
+
 .crew .name {
     font-variant:none;
     letter-spacing:2px;
@@ -288,7 +296,7 @@ a:hover {
 }
 
 .donate img {
-    width: 100%;
+    width: 75%;
 }
 
 #galleria, #artwork{
