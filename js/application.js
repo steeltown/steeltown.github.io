@@ -19,7 +19,46 @@ var first = false;
                 $('#background').animate({
                     "opacity": 1.0
                 });
+                
+                $('#nav').animate({
+                    "top": "570px"
+                })
+                
+                $('.inner').animate({
+                    height: "370px"
+                });
             });
+        } else if(section == "#donate"){
+             $('#title img').animate({
+                    "margin-top": "15px",
+                    "width": "440px"
+                });   
+
+                $('#title span').animate({
+                    "font-size": "25px"
+                });
+
+                $('#background').animate({
+                    "opacity": .5
+                });
+
+
+                $('#content').fadeOut(function(){
+                    $('#content').html($(section).html())
+                    $('#content').fadeIn();
+                    
+                    $('.inner').animate({
+                        "height": "500px"
+                    });
+                });
+
+                $('#nav a').removeClass('current');
+                $('#nav a[href="' + section + '"]').addClass("current");
+                
+                $('#nav').animate({
+                    "top": "670px"
+                })
+                
         } else {
             /*
             if(section == "#artwork" && first != false){
@@ -50,6 +89,14 @@ var first = false;
             
             $('#nav a').removeClass('current');
             $('#nav a[href="' + section + '"]').addClass("current");
+            
+            $('.inner').animate({
+                height: "370px"
+            });
+            
+            $('#nav').animate({
+                "top": "570px"
+            })
         }
     };
     
