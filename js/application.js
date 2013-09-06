@@ -26,7 +26,7 @@ var first = false;
                 
                 $('.inner').animate({
                     height: "370px"
-                });
+                }).css("overflow-y","scroll");
             });
         } else if(section == "#donate"){
              $('#title img').animate({
@@ -49,7 +49,7 @@ var first = false;
                     
                     $('.inner').animate({
                         "height": "500px"
-                    });
+                    }).css("overflow-y","hidden");
                 });
 
                 $('#nav a').removeClass('current');
@@ -92,7 +92,7 @@ var first = false;
             
             $('.inner').animate({
                 height: "370px"
-            });
+            }).css("overflow-y","scroll");
             
             $('#nav').animate({
                 "top": "570px"
