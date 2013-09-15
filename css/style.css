@@ -307,3 +307,8 @@ a:hover {
 .inner p:last-child{
     margin-bottom: 0;
 }
+
+.story h3 {
+    font-size: 19px;
+    text-align: center;
+}
