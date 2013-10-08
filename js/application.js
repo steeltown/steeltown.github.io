@@ -40,6 +40,8 @@ var first = false;
                     $('#content').html($(section).html())
                     $('#content').fadeIn();
                 });
+                
+                $('.inner').css("overflow-y", "hidden")
 
                 $('#nav a').removeClass('current');
                 $('#nav a[href="' + section + '"]').addClass("current");
