@@ -4,13 +4,31 @@
         <title>Steel Town - Crew</title>
         <link rel="shortcut icon" href="favicon.ico">
         <link href="css/style.css" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=IM+Fell+English+SC' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=IM+Fell+Double+Pica+SC' rel='stylesheet' type='text/css'>
+        <script src="js/jquery-1.8.3.min.js"></script>
+        <script src="js/jquery.ba-hashchange.min.js"></script>
+        <script src="js/application.js"></script>
+        <script src="js/galleria-1.2.7.min.js"></script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-29476187-2', 'steeltownfilm.com');
+          ga('send', 'pageview');
+
+        </script>
     </head>
     <body>
-        <div id="title" class="smaller">
-            <h1>Steeltown</h1>
-            <span style="font-size: 20px">A short film about the homestead strike</span>
+        <div id="background" style="opacity: .5"></div>
+        <div id="flame"></div>
+        <div id="title">
+            <img src="img/title_card.jpg" style="width: 440px; margin-top: 15px;">
+            <span>A short film about the Homestead Strike</span>
         </div>
         <div id="content">
             <h2>Crew</h2>
@@ -35,20 +53,20 @@
                     Dan has worked in the worlds of both film and local politics since graduating from the University of Pittsburgh in 2008. He has worked primarily as Gaffer on projects such as Yulin Kuang's The Perils of Growing Up Flat Chested, Andrew Batista's The Commute and Andy Keleman's Letter Die: A Gamut Sibling Mystery. He has worked extensively in the Pittsburgh freelance set electrician scene for clients such as New Perspective and KDKA. Most recently, he managed Dan Gilman's winning primary campaign for city council. His experience listening to life stories of community members on the campaign trail has made him a strong believer in the inheritance of working America, and its rich history in Pittsburgh. He hopes to bring together the working attitude of crew members and the dedication of campaign workers on this project.</p>
             </div>
         </div>
-        <div id="nav" class="lower">
-            <a href="index.html">Home</a>|
-            <a href="trailer.html">Trailer</a>|
-            <a href="synopsis.html">Synopsis</a>|
-            <a href="director_statement.html">Director's Statement</a>|
-            <a href="artwork.html">Artwork</a>|
-            <a class="current" href="crew.html">Crew</a>|
-            <a href="contact.html">Contact</a>|
-            <a href="crew.html">Donate</a>
-            
+        <div id="nav">
+            <a href="index.html#home">Home</a>|
+            <a href="index.html#trailer">Trailer</a>|
+            <a href="index.html#synopsis">Synopsis</a>|
+            <a href="index.html#director_statement">Director's Statement</a>|
+            <a href="index.html#artwork">Artwork</a>|
+            <a class="current" hhref="index.html#crew">Crew</a>|
+            <a href="index.html#steeltownstories">Steel Town Stories</a>|
+            <a href="index.html#contact">Contact</a>|
+            <a href="index.html#donate">Donate</a>
             <div id="links">
-                <a href="https://www.facebook.com/SteelTownMovie"><img src="img/facebook.png" height="20" width="11"></a>
-                <a href="https://twitter.com/SteelTownMovie"><img src="img/twitter.png" height="20" width="28"></a>
-                <a href=""><img src="img/kickstarter.png" height="20" width="19"></a>
+                <a href="https://www.facebook.com/SteelTownMovie" class="fb"><img  src="img/facebook.jpg" height="20" width="11"></a>
+                <a href="https://twitter.com/SteelTownMovie" class="twitter" ><img src="img/twitter.jpg" height="20" width="28"></a>
+                <a class="kick"href="http://www.kickstarter.com/projects/516902088/steel-town"><img src="img/kickstarter.jpg" height="20" width="19"></a>
             </div>
         </div>
     </body>
